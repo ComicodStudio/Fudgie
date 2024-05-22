@@ -11,3 +11,8 @@
     <li>Events: Stay updated on special events, live music, and themed nights.</li>
     <li>Contact: Reach out to us with any inquiries or feedback.</li>
 </ul>
+<hr />
+<h2>preview</h2>
+<img src="https://github.com/ComicodStudio/Fudgie.github.io/blob/main/Image/preview.png">
+
+
