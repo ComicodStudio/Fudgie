@@ -1,0 +1,693 @@
+@font-face {
+    font-family: Bebas;
+    src: url(../Font/BebasNeue-Regular.ttf);
+}
+
+body {
+    margin: 16px 32px;
+    padding: 0;
+    font-family: Bebas;
+    font-size: 16px;
+    background-color: #FAFAFA;
+}
+
+
+html {
+    margin: 0 auto;
+    max-width: 1600px;
+    overflow-x: hidden;
+}
+
+
+/* Header */
+
+
+header {
+    background-color: #fff;
+    box-shadow: 1px 2px 5px 0px #2020201e;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+
+.logo img {
+    width: 70px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 0px 1rem;
+    font-size: 1.2rem;
+    transition: all ease .2s;
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    color: #FC6720;
+}
+
+
+.B-Menu {
+    color: #fff;
+    background-color: #FC6720;
+    padding: .5rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+
+.burger-menuClose {
+    background-color: #FC6720;
+    width: 300px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    right: -700px;
+    transition: all ease .8s;
+}
+
+.burger-menuOpen {
+    background-color: #FC6720;
+    width: 300px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    transition: all ease .8s;
+}
+
+#Menu-b ul {
+    list-style: none;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+#Menu-b ul li {
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+#Menu-b button {
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.cart {
+    color: #fff;
+    background-color: #FC6720;
+    padding: .5rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin-right: .2rem;
+}
+
+.User {
+    color: #fff;
+    background-color: #FC6720;
+    padding: .5rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin-left: .2rem;
+}
+
+
+
+/* Main Cantent */
+
+
+
+.fudgie-res {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .res-cantent {} */
+
+.res-cantent h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.res-cantent p {
+    font-size: 1.2rem;
+}
+
+.fresh {
+    color: #0f0;
+}
+
+.healthy {
+    color: #FC6720;
+}
+
+.view-menu {
+    background-color: #FC6720;
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    margin-right: .5rem;
+}
+
+.contact-us {
+    background-color: #ffe2d4;
+    color: #FC6720;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    margin-left: .5rem;
+}
+
+/* .res-image {} */
+
+.res-image img {
+    width: 500px;
+}
+
+
+
+/* Popular Food */
+
+
+
+.popular-Food-txt {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.popular-Food {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.food {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 5px 0px #2020201e;
+    padding: .5rem;
+    margin: 1rem;
+    width: 20%;
+}
+
+.food img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.food h4 {
+    margin: .5rem;
+}
+
+
+/* Business Policy */
+
+
+.business-policy-txt {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.business-policy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.policy {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 5px 0px #2020201e;
+    padding: .5rem;
+    margin: 1rem;
+    width: 20%;
+}
+
+
+/* About Us */
+
+
+.about-us {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 5px 0px #2020201e;
+    padding: 1rem;
+    margin: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .about-cantent {} */
+
+.about-cantent h2 {
+    font-size: 3rem;
+}
+
+.about-cantent p {
+    font-size: 1.3rem;
+    max-width: 700px;
+}
+
+.about-img img {
+    width: 500px;
+    height: 500px;
+    /* border-radius: 50% 50px 50% 50px; */
+    border-radius: 50% 50px 50px 50%;
+}
+
+
+/* Recommended Food */
+
+
+.recommended-dishes-txt {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.recommended-dishes {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.re-food {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 5px 0px #2020201e;
+    padding: .5rem;
+    margin: 1rem;
+    width: 20%;
+}
+
+.re-food img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+/* Footer */
+
+
+footer {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 40px 40px;
+    margin: 50px 0px;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 5px 0px #2020201e;
+    border-radius: 1rem;
+
+}
+
+.Fudgie-footer {
+    max-width: 700px;
+}
+
+.Fudgie-footer img {
+    width: 300px;
+}
+
+.copyright {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 1px 2px 5px 0px #2020201e;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.copyright h3 {
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.social li {
+    padding: 0 1rem;
+    font-size: 1.4rem;
+    color: #FC6720;
+    cursor: pointer;
+}
+
+
+
+/* Desktop Screen */
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+    .res-cantent h1 {
+        font-size: 3rem;
+    }
+
+    .res-cantent p {
+        font-size: 1rem;
+    }
+
+    .res-image img {
+        width: 400px;
+    }
+
+    /* Popular Food */
+
+    .popular-Food-txt {
+        font-size: 1.5rem;
+    }
+
+    .food {
+        width: 25%;
+    }
+
+    /* Business Policy */
+
+    .business-policy-txt {
+        font-size: 1.5rem;
+    }
+
+    .business-policy {
+        flex-wrap: wrap;
+    }
+
+    .policy {
+        width: 40%;
+    }
+
+
+    /* About Us */
+
+    .about-us {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    /* .about-cantent {} */
+
+    .about-img img {
+        border-radius: 50% 50px 50% 50px;
+    }
+
+
+    /* Recommended Food */
+
+
+    .recommended-dishes-txt {
+        font-size: 1.5rem;
+    }
+
+    .re-food {
+        width: 40%;
+    }
+
+
+
+    /* Footer */
+
+    .Fudgie-footer {
+        max-width: 800px;
+    }
+
+    .Fudgie-footer img {
+        width: 200px;
+    }
+}
+
+
+
+/* Tablet Screen */
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .fudgie-res {
+        margin: 1rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    /* .res-cantent {} */
+
+    .res-cantent h1 {
+        font-size: 3.5rem;
+        margin: 0;
+    }
+
+    .res-cantent p {
+        font-size: 1rem;
+    }
+
+    /* Popular Food */
+
+    .popular-Food {
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    .food {
+        background-color: #fff;
+        text-align: center;
+        border-radius: 1rem;
+        box-shadow: 1px 2px 5px 0px #2020201e;
+        padding: .5rem;
+        margin: 1rem;
+        width: 25%;
+    }
+
+    /* Business Policy */
+
+    .business-policy {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .policy {
+        background-color: #fff;
+        text-align: center;
+        border-radius: 1rem;
+        box-shadow: 1px 2px 5px 0px #2020201e;
+        padding: .5rem;
+        margin: 1rem;
+        width: 100%;
+    }
+
+
+    /* About Us */
+
+
+    .about-us {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .about-img img {
+        border-radius: 50% 50px 50% 50px;
+    }
+
+
+    /* Recommended Food */
+
+
+    .re-food {
+        width: 40%;
+    }
+}
+
+
+
+/* Mobile Screen */
+
+
+
+@media screen and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+
+
+    .cart {
+        display: none;
+    }
+
+    .User {
+        display: none;
+    }
+
+    .B-Menu {
+        display: block;
+    }
+
+    /* Main Cantent */
+
+
+
+    .fudgie-res {
+        flex-wrap: wrap;
+    }
+
+    .res-cantent h1 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+    .res-cantent p {
+        font-size: 1rem;
+    }
+
+    /* Popular Food */
+
+    .food {
+        width: 35%;
+    }
+
+
+    /* Business Policy */
+
+    .business-policy {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .policy {
+        width: 100%;
+    }
+
+
+    /* About Us */
+
+
+    .about-us {
+        background-color: #fff;
+        border-radius: 1rem;
+        box-shadow: 1px 2px 5px 0px #2020201e;
+        padding: 1rem;
+        margin: 2rem 1rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .about-cantent h2 {
+        font-size: 2rem;
+    }
+
+    .about-cantent p {
+        font-size: 1rem;
+    }
+
+    .about-img img {
+        border-radius: 50% 50px 50% 50px;
+        width: 300px;
+        height: 300px;
+    }
+
+
+    /* Recommended Food */
+
+    .re-food {
+        width: 35%;
+    }
+
+    /* Footer */
+
+    footer {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        flex-wrap: wrap;
+        padding: 40px 40px;
+        margin: 50px 0px;
+        margin-bottom: 10px;
+        box-shadow: 1px 2px 5px 0px #2020201e;
+        border-radius: 1rem;
+
+    }
+
+    .Fudgie-footer {
+        max-width: 700px;
+    }
+
+    .Fudgie-footer img {
+        width: 200px;
+    }
+
+    .copyright {
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 1px 2px 5px 0px #2020201e;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    .copyright h3 {
+        font-size: 1.3rem;
+        margin-top: 0;
+    }
+
+    .social {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .social li {
+        padding: 0 1rem;
+        font-size: 1.4rem;
+        color: #FC6720;
+        cursor: pointer;
+    }
+}
