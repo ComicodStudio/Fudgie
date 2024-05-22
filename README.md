@@ -1,1 +1,3 @@
-https://github.com/ComicodStudio/Fudgie.github.io/blob/main/Image/Fudgie%20logo.png
+<html>
+  <img src="../image/Fudgie logo.png">
+</html>
