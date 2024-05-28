@@ -68,48 +68,9 @@ header {
 }
 
 #Menu-b {
-/*     background-color: #FC6720;
-    width: 300px;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    right: 0px; */
     display: none;
 }
 
-/* .burger-menuClose {
-    transform: translateX(300px);
-    transition: all ease .8s;
-    display: none;
-}
-
-.burger-menuOpen {
-    transform: translateX(0);
-    transition: all ease .8s;
-    display: block;
-}
-
-#Menu-b ul {
-    list-style: none;
-    text-align: center;
-    font-size: 1.3rem;
-    color: #fff;
-}
-
-#Menu-b ul li {
-    margin: 1rem 0;
-    cursor: pointer;
-}
-
-#Menu-b button {
-    color: #fff;
-    font-size: 2rem;
-    margin: 1rem;
-    border: none;
-    outline: none;
-    background-color: transparent;
-}
- */
 .cart {
     color: #fff;
     background-color: #FC6720;
