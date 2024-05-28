@@ -68,16 +68,16 @@ header {
 }
 
 #Menu-b {
-    background-color: #FC6720;
+/*     background-color: #FC6720;
     width: 300px;
     height: 100vh;
     position: absolute;
     top: 0;
-    right: 0px;
+    right: 0px; */
     display: none;
 }
 
-.burger-menuClose {
+/* .burger-menuClose {
     transform: translateX(300px);
     transition: all ease .8s;
     display: none;
@@ -109,7 +109,7 @@ header {
     outline: none;
     background-color: transparent;
 }
-
+ */
 .cart {
     color: #fff;
     background-color: #FC6720;
