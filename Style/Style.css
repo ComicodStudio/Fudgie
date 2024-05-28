@@ -65,25 +65,24 @@ header {
     border: none;
     outline: none;
     display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
 }
 
-
-.burger-menuClose {
+#Menu-b {
     background-color: #FC6720;
     width: 300px;
-    height: 1000px;
-    transform: translateX(-300px);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.burger-menuClose {
+    transform: translateX(300px);
     transition: all ease .8s;
 }
 
 .burger-menuOpen {
-    background-color: #FC6720;
-    width: 300px;
-    height: 1000px;
-    transform: translateX(300px);
+    transform: translateX(0);
     transition: all ease .8s;
 }
 
