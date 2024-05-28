@@ -74,16 +74,19 @@ header {
     position: absolute;
     top: 0;
     right: 0px;
+    display: none;
 }
 
 .burger-menuClose {
     transform: translateX(300px);
     transition: all ease .8s;
+    display: none;
 }
 
 .burger-menuOpen {
     transform: translateX(0);
     transition: all ease .8s;
+    display: block;
 }
 
 #Menu-b ul {
